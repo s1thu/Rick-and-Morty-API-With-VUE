@@ -1,5 +1,5 @@
 <script setup></script>
 <template>
-  <h1>Characters</h1>
+  <h1>Episodes</h1>
 </template>
 <style></style>

@@ -8,8 +8,8 @@ import Header from '@/components/HeaderView.vue'
   <nav>
     <ul>
       <li><RouterLink :to="{ name: 'characters-view' }">Characters</RouterLink></li>
-      <li>Locations</li>
-      <li>Episodes</li>
+      <li><RouterLink :to="{ name: 'locations-view' }">Locations</RouterLink></li>
+      <li><RouterLink :to="{ name: 'episodes-view' }">Episodes</RouterLink></li>
     </ul>
   </nav>
   <RouterView />
@@ -29,5 +29,9 @@ ul {
 
 li::after {
   content: '   |   ';
+}
+
+nav a {
+  text-decoration: none;
 }
 </style>
